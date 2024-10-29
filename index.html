@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RecoMedia</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      .gradient-bg {
+        background: linear-gradient(to bottom right, #4a1d96, #312e81, #1e3a8a);
+      }
+    </style>
+  </head>
+  <body class="min-h-screen gradient-bg text-white">
+    <div id="wrapper" class="flex flex-col min-h-screen">
+      <!-- Banner Section -->
+      <section
+        class="flex flex-col md:flex-row items-center justify-between p-8 md:p-16"
+      >
+        <div class="md:w-1/2 mb-8 md:mb-0">
+          <h1 class="text-5xl md:text-9xl font-bold mb-4">RecoMedia</h1>
+          <p class="text-3xl mb-6">Media that matches your moments.</p>
+          <div class="space-x-4">
+            <a
+              href="#concept-video"
+              class="bg-purple-600 hover:bg-purple-700 text-white text-xl font-bold py-2 px-4 rounded-full transition duration-300 inline-block"
+            >
+              Watch Concept Video
+            </a>
+            <a
+              href="#deliverables"
+              class="bg-purple-600 hover:bg-purple-700 text-white text-xl font-bold py-2 px-4 rounded-full transition duration-300 inline-block"
+            >
+              View Project Deliverables
+            </a>
+          </div>
+        </div>
+        <div class="md:w-1/2">
+          <img
+            src="./images/logo.png"
+            alt="RecoMedia App"
+            class="rounded-lg w-full"
+          />
+        </div>
+      </section>
+
+      <!-- Concept Video Section -->
+      <section id="concept-video" class="bg-white bg-opacity-10 p-8 md:p-16">
+        <h2 class="text-3xl font-bold mb-8 text-center">Concept Video</h2>
+        <div class="w-full max-w-4xl mx-auto" style="aspect-ratio: 16 / 9">
+          <iframe
+            src="https://www.youtube.com/embed/iSuYXW8OXmE"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            class="w-full h-full"
+          ></iframe>
+        </div>
+      </section>
+
+      <!-- Project Deliverables Section -->
+      <section id="deliverables" class="bg-white bg-opacity-10 p-8 md:p-16">
+        <h2 class="text-3xl font-bold mb-8 text-center">
+          Project Deliverables
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div
+            class="bg-purple-800 bg-opacity-50 p-6 rounded-lg shadow-lg transition duration-300 hover:bg-opacity-70"
+          >
+            <i class="fas fa-search text-4xl mb-4"></i>
+            <h3 class="text-xl font-semibold mb-2">A1: Needfinding</h3>
+            <a
+              href="./assets/a1-slides.pdf"
+              class="text-purple-300 hover:underline"
+              >View Slides</a
+            >
+          </div>
+          <div
+            class="bg-purple-800 bg-opacity-50 p-6 rounded-lg shadow-lg transition duration-300 hover:bg-opacity-70"
+          >
+            <i class="fas fa-lightbulb text-4xl mb-4"></i>
+            <h3 class="text-xl font-semibold mb-2">
+              A2: Additional Needfinding & Brainstorming
+            </h3>
+            <a
+              href="./assets/a2-slides.pdf"
+              class="text-purple-300 hover:underline"
+              >View Slides</a
+            >
+          </div>
+          <div
+            class="bg-purple-800 bg-opacity-50 p-6 rounded-lg shadow-lg transition duration-300 hover:bg-opacity-70"
+          >
+            <i class="fas fa-video text-4xl mb-4"></i>
+            <h3 class="text-xl font-semibold mb-2">A4: Concept Video</h3>
+            <a
+              href="./assets/a4-slides.pdf"
+              class="text-purple-300 hover:underline mr-4"
+              >View Slides</a
+            >
+            <a href="#concept-video" class="text-purple-300 hover:underline"
+              >Watch Video</a
+            >
+          </div>
+          <div
+            class="bg-purple-800 bg-opacity-50 p-6 rounded-lg shadow-lg transition duration-300 hover:bg-opacity-70"
+          >
+            <i class="fas fa-pencil-alt text-4xl mb-4"></i>
+            <h3 class="text-xl font-semibold mb-2">
+              A5: Low-Fi Prototyping & Testing
+            </h3>
+            <a href="#" class="text-purple-300 hover:underline">View Slides</a>
+          </div>
+          <div
+            class="bg-purple-800 bg-opacity-50 p-6 rounded-lg shadow-lg transition duration-300 hover:bg-opacity-70"
+          >
+            <i class="fas fa-desktop text-4xl mb-4"></i>
+            <h3 class="text-xl font-semibold mb-2">A6: Medium-fi Prototype</h3>
+            <a href="#" class="text-purple-300 hover:underline mr-4"
+              >View Slides</a
+            >
+            <a href="#" class="text-purple-300 hover:underline mr-4"
+              >Figma File</a
+            >
+            <a href="#" class="text-purple-300 hover:underline">README</a>
+          </div>
+          <div
+            class="bg-purple-800 bg-opacity-50 p-6 rounded-lg shadow-lg transition duration-300 hover:bg-opacity-70"
+          >
+            <i class="fas fa-mobile-alt text-4xl mb-4"></i>
+            <h3 class="text-xl font-semibold mb-2">A8: High-fi Prototype</h3>
+            <a href="#" class="text-purple-300 hover:underline mr-4"
+              >View Slides</a
+            >
+            <a href="#" class="text-purple-300 hover:underline mr-4"
+              >Prototype</a
+            >
+            <a href="#" class="text-purple-300 hover:underline">README</a>
+          </div>
+          <div
+            class="bg-purple-800 bg-opacity-50 p-6 rounded-lg shadow-lg transition duration-300 hover:bg-opacity-70"
+          >
+            <i class="fas fa-clipboard-check text-4xl mb-4"></i>
+            <h3 class="text-xl font-semibold mb-2">A9: Heuristic Evaluation</h3>
+            <a href="#" class="text-purple-300 hover:underline">View Report</a>
+          </div>
+          <div
+            class="bg-purple-800 bg-opacity-50 p-6 rounded-lg shadow-lg transition duration-300 hover:bg-opacity-70"
+          >
+            <i class="fas fa-chalkboard-teacher text-4xl mb-4"></i>
+            <h3 class="text-xl font-semibold mb-2">
+              A10: Poster, Pitch & Demo
+            </h3>
+            <a href="#" class="text-purple-300 hover:underline mr-4"
+              >View Slide</a
+            >
+            <a href="#" class="text-purple-300 hover:underline mr-4">Script</a>
+            <a href="#" class="text-purple-300 hover:underline mr-4">Poster</a>
+            <a href="#" class="text-purple-300 hover:underline">Video</a>
+          </div>
+          <div
+            class="bg-purple-800 bg-opacity-50 p-6 rounded-lg shadow-lg transition duration-300 hover:bg-opacity-70"
+          >
+            <i class="fas fa-file-alt text-4xl mb-4"></i>
+            <h3 class="text-xl font-semibold mb-2">A11: Final Report</h3>
+            <a href="#" class="text-purple-300 hover:underline">View Report</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="bg-purple-900 p-8 mt-auto">
+        <div class="flex flex-col md:flex-row justify-between items-center">
+          <div class="mb-4 md:mb-0">
+            <p>&copy; 2024 RecoMedia. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
